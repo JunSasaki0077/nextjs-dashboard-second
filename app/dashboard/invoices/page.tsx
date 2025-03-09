@@ -5,7 +5,7 @@ import { CreateInvoice } from '@/app/ui/invoices/buttons'
 import { lusitana } from '@/app/ui/fonts'
 import { InvoicesTableSkeleton } from '@/app/ui/skeletons'
 import { Suspense } from 'react'
-import { NuqsAdapter } from 'nuqs/adapters/next/app'
+
 import { fetchInvoicesPages } from '@/app/lib/data'
 
 export default async function Page(props: {
